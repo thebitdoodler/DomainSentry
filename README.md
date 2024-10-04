@@ -1,4 +1,5 @@
-<img src="https://raw.githubusercontent.com/thebitdoodler/DomainSentry/main/assets/domainsentrylogo.svg" alt="DomainSentry Logo" width="200" height="200">
+<div align="center"><img src="assets/domainsentry.svg" alt="DomainSentry Logo" width="200" height="200"></div>
+
 # DomainSentry - The Ultimate WHOIS Extractor
 
 [![PyPI version](https://badge.fury.io/py/domainsentry.svg)](https://badge.fury.io/py/domainsentry)
