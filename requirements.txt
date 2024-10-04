@@ -1,0 +1,5 @@
+python-whois
+tldextract
+colorama
+streamlit
+pytest
