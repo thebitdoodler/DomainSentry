@@ -1,13 +1,16 @@
 <div align="center"><img src="assets/domainsentry.svg" alt="DomainSentry Logo" width="200" height="200"></div>
 
-<div align="center"> # DomainSentry - The Ultimate WHOIS Extractor </div>
+<div align="center"> <h1>DomainSentry - The Ultimate WHOIS Extractor </h1></div>
 
-[![PyPI version](https://badge.fury.io/py/domainsentry.svg)](https://badge.fury.io/py/domainsentry)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Versions](https://img.shields.io/pypi/pyversions/domainsentry.svg)](https://pypi.org/project/domainsentry/)
-[![Build Status](https://travis-ci.org/thebitdoodler/domainsentry.svg?branch=main)](https://travis-ci.org/thebitdoodler/domainsentry)
-[![Coverage Status](https://coveralls.io/repos/github/thebitdoodler/domainsentry/badge.svg?branch=main)](https://coveralls.io/github/thebitdoodler/domainsentry?branch=main)
-[![Docker Pulls](https://img.shields.io/docker/pulls/thebitdoodler/domainsentry.svg)](https://hub.docker.com/r/thebitdoodler/domainsentry/)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/thebitdoodler/DomainSentry)](https://github.com/thebitdoodler/DomainSentry/releases)
+[![License](https://img.shields.io/github/license/thebitdoodler/DomainSentry)](https://github.com/thebitdoodler/DomainSentry/blob/main/LICENSE)
+[![Docker Pulls](https://img.shields.io/docker/pulls/thebitdoodler/domainsentry)](https://hub.docker.com/r/thebitdoodler/domainsentry)
+[![GitHub issues](https://img.shields.io/github/issues/thebitdoodler/DomainSentry)](https://github.com/thebitdoodler/DomainSentry/issues)
+[![GitHub stars](https://img.shields.io/github/stars/thebitdoodler/DomainSentry)](https://github.com/thebitdoodler/DomainSentry/stargazers)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://domainsentry-demo.streamlit.app)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/thebitdoodler/DomainSentry/issues)
 
 DomainSentry is a powerful and flexible tool designed to perform WHOIS lookups on a list of domains or URLs. It supports both a command-line interface (CLI) for system-level operation and a web-based interface using Streamlit, which can be easily deployed using Docker.
 
