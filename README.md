@@ -25,8 +25,8 @@ DomainSentry is a powerful and flexible tool designed to perform WHOIS lookups o
   - [CLI Usage](#cli-usage)
   - [Streamlit Web Interface](#streamlit-web-interface)
 - [Development](#development)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contributing](#Contributing)
+- [License](#License)
 
 ## 🔧 Installation
 
