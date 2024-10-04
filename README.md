@@ -1,6 +1,6 @@
 <div align="center"><img src="assets/domainsentry.svg" alt="DomainSentry Logo" width="200" height="200"></div>
 
-# DomainSentry - The Ultimate WHOIS Extractor
+<div align="center"> # DomainSentry - The Ultimate WHOIS Extractor </div>
 
 [![PyPI version](https://badge.fury.io/py/domainsentry.svg)](https://badge.fury.io/py/domainsentry)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
