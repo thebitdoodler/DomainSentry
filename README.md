@@ -78,7 +78,7 @@ docker run -p 8501:8501 thebitdoodler/domainsentry
 
 Then open your web browser and navigate to `http://localhost:8501`.
 
-## 🛠️ Development
+## Development
 
 1. Clone the repository:
    ```bash
@@ -102,7 +102,7 @@ Then open your web browser and navigate to `http://localhost:8501`.
    pytest tests/
    ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions to DomainSentry! Please see our [Contributing Guide](CONTRIBUTING.md) for more details on how to get started.
 
@@ -110,7 +110,7 @@ We welcome contributions to DomainSentry! Please see our [Contributing Guide](CO
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [python-whois](https://github.com/richardpenman/whois) for WHOIS lookup functionality
 - [Streamlit](https://streamlit.io/) for the web interface
