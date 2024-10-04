@@ -54,7 +54,7 @@ def main():
         unsafe_allow_html=True
     )
 
-    st.title("DomainSentry - Threat Intelligence WHOIS Extractor")
+    st.title("DomainSentry -The Ultimate WHOIS Extractor")
 
     # Initialize session state
     if 'results' not in st.session_state:

@@ -3,3 +3,4 @@ tldextract
 colorama
 streamlit
 pytest
+urllib3<2.0
