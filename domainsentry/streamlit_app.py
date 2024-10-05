@@ -12,17 +12,6 @@ sys.path.append(parent_dir)
 
 from domainsentry.domain_sentry_core import process_domains
 
-# Function to create a styled button
-def styled_button(label, key, on_click=None, args=None):
-    return st.button(
-        label,
-        key=key,
-        help=f"Click to {label.lower()}",
-        on_click=on_click,
-        args=args,
-    )
-
-# Function to encode SVG
 def get_image_base64(svg):
     return base64.b64encode(svg.encode('utf-8')).decode('utf-8')
 
@@ -45,6 +34,15 @@ def reset_app_state():
     st.session_state.results = None
     st.session_state.urls_input = ""
 
+def styled_button(label, key, on_click=None, args=None):
+    return st.button(
+        label,
+        key=key,
+        help=f"Click to {label.lower()}",
+        on_click=on_click,
+        args=args,
+    )
+
 def main():
     st.set_page_config(page_title="DomainSentry", page_icon=":mag:", layout="wide")
 
@@ -54,7 +52,8 @@ def main():
         unsafe_allow_html=True
     )
 
-    st.title("DomainSentry -The Ultimate WHOIS Extractor")
+    st.markdown("<h1 style='text-align: center;'>DomainSentry - The Ultimate WHOIS Extractor</h1>", unsafe_allow_html=True)
+
 
     # Initialize session state
     if 'results' not in st.session_state:
@@ -63,13 +62,13 @@ def main():
         st.session_state.urls_input = ""
 
     # Input section
-    st.header("Input")
+    st.header("Enter Here 👇 ")
     urls = st.text_area("Enter URLs or domains (one per line):", height=200, key="urls_input")
 
     col1, col2 = st.columns(2)
 
     with col1:
-        extract_button = styled_button("Extract WHOIS Information", "extract")
+        extract_button = styled_button("Magic Starts Here :sparkle:", "extract")
 
     with col2:
         if st.session_state.results is not None:
@@ -123,6 +122,32 @@ def main():
 
         # Reset button after the table
         reset_button = styled_button("Extract More", "reset", on_click=reset_app_state)
+
+    # Footer
+    st.markdown("---")
+    
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        st.markdown("#### Connect")
+        st.markdown("""
+        [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />](https://github.com/thebitdoodler/DomainSentry)
+        [<img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />](https://x.com/thebitdoodler)
+        [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/thebitdoodler)
+        """, unsafe_allow_html=True)
+    
+    with col2:
+        st.markdown("#### Resources")
+        st.markdown("""
+        - [Documentation](https://github.com/thebitdoodler/DomainSentry#readme)
+        - [Report an Issue](https://github.com/thebitdoodler/DomainSentry/issues)
+        - [Blog](https://huskyscripts.blog)
+        """)
+    
+    with col3:
+        st.markdown("#### About")
+        st.markdown("Made with ❤️ && 🐍 by [@thebitdoodler](https://github.com/thebitdoodler)")
+        st.markdown("© 2024 [@thebitdoodler](https://x.com/thebitdoodler). All rights reserved.")
 
 if __name__ == "__main__":
     main()
