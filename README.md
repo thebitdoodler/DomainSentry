@@ -5,10 +5,8 @@
 [![Python Versions](https://img.shields.io/pypi/pyversions/domainsentry.svg)](https://pypi.org/project/domainsentry/)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/thebitdoodler/DomainSentry)](https://github.com/thebitdoodler/DomainSentry/releases)
 [![License](https://img.shields.io/github/license/thebitdoodler/DomainSentry)](https://github.com/thebitdoodler/DomainSentry/blob/main/LICENSE)
-[![Docker Pulls](https://img.shields.io/docker/pulls/thebitdoodler/domainsentry)](https://hub.docker.com/r/thebitdoodler/domainsentry)
 [![GitHub issues](https://img.shields.io/github/issues/thebitdoodler/DomainSentry)](https://github.com/thebitdoodler/DomainSentry/issues)
 [![GitHub stars](https://img.shields.io/github/stars/thebitdoodler/DomainSentry)](https://github.com/thebitdoodler/DomainSentry/stargazers)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://domain-sentry.streamlit.app/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/thebitdoodler/DomainSentry/issues)
 
